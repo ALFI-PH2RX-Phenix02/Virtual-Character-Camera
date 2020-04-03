@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F9F9"
+>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="160dp"
+        android:layout_height="125dp"
+        android:id="@+id/pic_wel"
+        android:src="@drawable/wel"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_wel1"
+        android:layout_below="@+id/pic_wel"
+        android:text="Welcome to"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="12dp"
+        android:textSize="28sp"
+        android:textColor="#009999"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_wel2"
+        android:text="Virtual Character Camera"
+        android:layout_below="@+id/txt_wel1"
+        android:layout_marginLeft="30dp"
+        android:textSize="28sp"
+        android:textColor="#009999"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/wel_btn"
+        android:layout_above="@id/tx1"
+        android:layout_marginBottom="25dp"
+        android:layout_centerHorizontal="true"
+        android:text="TRY NOW"
+        android:textSize="20sp"
+        android:background="@drawable/radio"
+        android:textColor="#FFFFFF"
+        android:onClick="click_try"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tx1"
+        android:layout_above="@id/tx2"
+        android:layout_centerHorizontal="true"
+        android:text="By clicking the button"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tx2"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="I agree to the terms of services of VCC"
+        />
+</RelativeLayout>

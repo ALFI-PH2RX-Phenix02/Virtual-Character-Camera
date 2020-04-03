@@ -1,0 +1,2 @@
+rootProject.name='Virtual_character_camera'
+include ':app'
